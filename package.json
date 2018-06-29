@@ -1,0 +1,21 @@
+{
+  "name": "contest-page",
+  "version": "1.0.0",
+  "description": "contest landing page for playline",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Peter Benvenuto",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.7",
+    "validator": "^10.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
