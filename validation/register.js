@@ -8,12 +8,12 @@ module.exports = validateRegisterInput = data => {
   //If it is empty then it will be an empty string and get tested below
   data.email = !isEmpty(data.email) ? data.email : '';
 
-  if (Validator.isEmpty(data.email)) {
-    errors.email = 'Email field is required';
-  }
-
   if (!Validator.isEmail(data.email)) {
     errors.email = 'Email is invalid';
+  }
+
+  if (Validator.isEmpty(data.email)) {
+    errors.email = 'Email field is required';
   }
 
   return {

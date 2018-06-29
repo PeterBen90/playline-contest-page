@@ -1,3 +1,4 @@
+//Global variable that allows validator middleware to test errors object as a string
 const isEmpty = value =>
   value === undefined ||
   value === null ||

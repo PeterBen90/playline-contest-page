@@ -10,6 +10,9 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+//connect to files in public folder
+app.use(express.static('public'));
+
 //DB config
 const db = require('./config/keys').mongoURI;
 
@@ -19,7 +22,9 @@ mongoose
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.log(err));
 
-app.get('/', (req, res) => res.send('Hello'));
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/public/index.html');
+});
 
 //Use routes
 //Use routes
