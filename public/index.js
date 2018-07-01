@@ -46,11 +46,11 @@ $(function() {
   });
 });
 
-$('.see-more').click(function(event) {
+$('.arrow-wrapper').click(function(event) {
   event.preventDefault();
   $('html, body').animate(
     {
-      scrollTop: $('#about').offset().top
+      scrollTop: $('#contest').offset().top
     },
     800
   );
