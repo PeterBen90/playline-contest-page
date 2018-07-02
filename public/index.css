@@ -388,6 +388,10 @@ button:hover {
   font-size: 20px;
 }
 
+.success {
+  color: #e67e22;
+}
+
 .arrow-wrapper {
   cursor: pointer;
   padding-top: 25px;
@@ -479,5 +483,9 @@ button:hover {
   .message {
     font-size: 12px;
     line-height: 1.5em;
+  }
+
+  .success {
+    font-size: 15px;
   }
 }

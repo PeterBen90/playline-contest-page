@@ -146,11 +146,13 @@ $('.register-form').on('submit', event => {
     dataType: 'json',
 
     success: response => {
-      alert('Success!');
+      $('.success').prop('hidden', false);
       $('.firstname').val('');
       $('.lastname').val('');
       $('.email').val('');
     },
-    error: error => console.log(error)
+    error: error => {
+      console.log(error);
+    }
   });
 });
