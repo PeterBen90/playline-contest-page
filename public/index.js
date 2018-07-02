@@ -56,6 +56,16 @@ $('.arrow-wrapper').click(function(event) {
   );
 });
 
+$('.new-arrow').click(function(event) {
+  event.preventDefault();
+  $('html, body').animate(
+    {
+      scrollTop: $('#register').offset().top
+    },
+    800
+  );
+});
+
 $('.handle').on('click', function(event) {
   $('nav ul').toggleClass('showing');
 });
@@ -118,3 +128,29 @@ function parallaxIt() {
 }
 
 parallaxIt();
+
+// Register form
+
+$('.register-form').on('submit', event => {
+  event.preventDefault();
+
+  let firstname = $('.firstname').val();
+  let lastname = $('.lastname').val();
+  let email = $('.email').val();
+
+  $.ajax({
+    method: 'POST',
+    url: '/api/users/register',
+    data: JSON.stringify({ firstname, lastname, email }),
+    contentType: 'application/json',
+    dataType: 'json',
+
+    success: response => {
+      alert('Success!');
+      $('.firstname').val('');
+      $('.lastname').val('');
+      $('.email').val('');
+    },
+    error: error => console.log(error)
+  });
+});

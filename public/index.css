@@ -246,6 +246,8 @@ body {
   margin: 0px;
 }
 
+/*---general styles----*/
+
 .sub-title {
   font-size: 28px;
 }
@@ -286,6 +288,7 @@ h2 a:hover {
 .prizes {
   font-size: 80px;
   color: #e67e22;
+  margin-top: -20px;
 }
 
 .hero-icons {
@@ -318,6 +321,73 @@ h2 a:hover {
   margin-top: -10px;
 }
 
+.register-form {
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+fieldset {
+  border: none;
+  text-align: center;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 20px;
+  background: none;
+  border: 2px solid #e67e22;
+  color: #e67e22;
+  z-index: 99999999;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 50px;
+  width: 180px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #e67e22;
+  color: black;
+  transition: all 0.8s;
+}
+
+.form-container {
+  padding: 40px;
+}
+
+.form-title {
+  padding-bottom: 30px;
+  color: #e67e22;
+}
+
+.playline-link {
+  color: white;
+}
+
+.playline-link:hover {
+  color: #e67e22;
+  -webkit-transition: max-height 0.4s;
+  -ms-transition: max-height 0.4s;
+  -moz-transition: max-height 0.4s;
+  -o-transition: max-height 0.4s;
+  transition: max-height 0.4s;
+  transition: all 0.4s ease;
+}
+
+.message {
+  font-size: 20px;
+}
+
 .arrow-wrapper {
   cursor: pointer;
   padding-top: 25px;
@@ -326,6 +396,18 @@ h2 a:hover {
   -moz-animation: pulse 1.3s infinite;
   -webkit-animation: pulse 1.3s infinite;
   animation: bounce 3s infinite;
+  text-align: center;
+}
+
+.new-arrow {
+  color: black;
+  cursor: pointer;
+  padding-bottom: 25px;
+  font-size: 50px;
+  -moz-animation: pulse 1.3s infinite;
+  -webkit-animation: pulse 1.3s infinite;
+  animation: bounce 3s infinite;
+  text-align: center;
 }
 
 @keyframes bounce {
@@ -362,16 +444,40 @@ h2 a:hover {
     font-size: 25px;
   }
 
+  .sub-head {
+    margin-top: -20px;
+  }
+
   .prizes {
     font-size: 60px;
   }
 
   .mockup {
-    padding-top: 30px;
+    padding-top: 20px;
   }
 
   .prize-content {
     font-size: 16px;
     margin-bottom: -10px;
+  }
+
+  .form-title {
+    font-size: 25px;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+  }
+
+  fieldset {
+    font-size: 15px;
+  }
+
+  button {
+    height: 40px;
+    width: 120px;
+  }
+
+  .message {
+    font-size: 12px;
+    line-height: 1.5em;
   }
 }
