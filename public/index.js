@@ -147,12 +147,14 @@ $('.register-form').on('submit', event => {
 
     success: response => {
       $('.success').prop('hidden', false);
+      $('.error').prop('hidden', true);
       $('.firstname').val('');
       $('.lastname').val('');
       $('.email').val('');
     },
     error: error => {
-      console.log(error);
+      $('.error').prop('hidden', false);
+      $('.success').prop('hidden', true);
     }
   });
 });

@@ -388,7 +388,8 @@ button:hover {
   font-size: 20px;
 }
 
-.success {
+.success,
+.error {
   color: #e67e22;
 }
 
@@ -485,7 +486,8 @@ button:hover {
     line-height: 1.5em;
   }
 
-  .success {
+  .success,
+  .error {
     font-size: 15px;
   }
 }
