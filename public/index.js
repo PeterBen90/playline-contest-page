@@ -84,7 +84,8 @@ $('nav ul a').on('click', function(event) {
   $('nav ul').toggleClass('showing');
 });
 
-// makes the parallax elements
+// Makes the parallax elements
+
 function parallaxIt() {
   // create variables
   let $fwindow = $(window);
@@ -171,3 +172,27 @@ $('.register-form').on('submit', event => {
     }
   });
 });
+
+// General setting scroll reveal
+
+window.sr = ScrollReveal({ reset: true });
+
+// Custom Settings
+
+sr.reveal('.main', { duration: 2000 });
+
+sr.reveal('.mockup', { duration: 2000 });
+
+sr.reveal('.sub-head', { duration: 2000 });
+
+sr.reveal('.prizes', { duration: 2000 });
+
+sr.reveal('.form-container', { duration: 2000 });
+
+sr.reveal('.prize-content', {
+  origin: 'right',
+  duration: 2000
+});
+
+
+
