@@ -66,6 +66,16 @@ $('.new-arrow').click(function(event) {
   );
 });
 
+$('.up-arrow').click(function(event) {
+  event.preventDefault();
+  $('html, body').animate(
+    {
+      scrollTop: $('#top').offset().top
+    },
+    800
+  );
+});
+
 $('.handle').on('click', function(event) {
   $('nav ul').toggleClass('showing');
 });
@@ -155,6 +165,9 @@ $('.register-form').on('submit', event => {
     error: error => {
       $('.error').prop('hidden', false);
       $('.success').prop('hidden', true);
+      $('.firstname').val('');
+      $('.lastname').val('');
+      $('.email').val('');
     }
   });
 });

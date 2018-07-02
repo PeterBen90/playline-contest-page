@@ -27,7 +27,7 @@
 <div class="container">
 
   <section>
-    <div class="image" data-type="background" data-speed="2"></div>
+    <div id="top" class="image" data-type="background" data-speed="2"></div>
     <div class="stuff col-6" data-type="content">
       <h1 class="header">Win An All Expenses Paid Trip for 2 to the Field of Dreams!</h1>
       <h2 class="sub-title">Brought to you by</h2>
@@ -63,18 +63,22 @@
     <div class="stuff" data-type="content">
       <form class="register-form">
         <div class="form-container">
+          <img src="images/playline-logo.png" alt="image of playline logo" class="logo2"></a>
           <h2 class="form-title">Sign up for more information below!</h2>
           <fieldset class="row col-12">
             Firstname:</br> <input type="text" name="firstname" class="firstname" required><br>
             Lastname:</br> <input type="lastname" name="lastname" class="lastname" required><br>
             Email:</br> <input type="email" name="email" class="email" required><br>
-            <p class="message">I acknowledge that I'm opting into <a class="playline-link" href="https://www.playline.com/" target="blank">playline.com</a>'s mailing list.</p>
+            <p class="message">I acknowledge that I'm opting into <a class="playline-link" href="https://www.playline.com/" target="blank">playline.com</a>'s mailing list by clicking sign up.</p>
             <div class="success" hidden>Email Successfully Added!</div>
             <div class="error" hidden>Error! email already exists or email is invalid.</div>
             <button type="submit" name="button">Sign up</button>
           </fieldset>
         </div>
       </form>
+      <div class="up-arrow col-12">
+        <i class=" fas fa-angle-up"></i>
+      </div>
     </div>
   </section>
 

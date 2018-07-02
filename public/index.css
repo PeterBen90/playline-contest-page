@@ -338,6 +338,8 @@ input {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
+  font-size: 18px;
+  padding: 5px;
 }
 
 button {
@@ -363,11 +365,13 @@ button:hover {
 
 .form-container {
   padding: 40px;
+  font-size: 20px;
 }
 
 .form-title {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   color: #e67e22;
+  font-size: 20px;
 }
 
 .playline-link {
@@ -375,6 +379,7 @@ button:hover {
 }
 
 .playline-link:hover {
+  /*color: #7fff00;*/
   color: #e67e22;
   -webkit-transition: max-height 0.4s;
   -ms-transition: max-height 0.4s;
@@ -386,6 +391,12 @@ button:hover {
 
 .message {
   font-size: 20px;
+}
+
+.logo2 {
+  width: 250px;
+  margin-bottom: -10px;
+  margin-top: -20px;
 }
 
 .success,
@@ -408,6 +419,16 @@ button:hover {
   color: black;
   cursor: pointer;
   padding-bottom: 25px;
+  font-size: 50px;
+  -moz-animation: pulse 1.3s infinite;
+  -webkit-animation: pulse 1.3s infinite;
+  animation: bounce 3s infinite;
+  text-align: center;
+}
+
+.up-arrow {
+  color: white;
+  cursor: pointer;
   font-size: 50px;
   -moz-animation: pulse 1.3s infinite;
   -webkit-animation: pulse 1.3s infinite;
@@ -467,9 +488,13 @@ button:hover {
   }
 
   .form-title {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.5em;
     padding-bottom: 20px;
+  }
+
+  .form-container {
+    font-size: 18px;
   }
 
   fieldset {
@@ -489,5 +514,9 @@ button:hover {
   .success,
   .error {
     font-size: 15px;
+  }
+
+  .logo2 {
+    width: 200px;
   }
 }
