@@ -379,7 +379,6 @@ button:hover {
 }
 
 .playline-link:hover {
-  /*color: #7fff00;*/
   color: #e67e22;
   -webkit-transition: max-height 0.4s;
   -ms-transition: max-height 0.4s;
@@ -402,6 +401,52 @@ button:hover {
 .success,
 .error {
   color: #e67e22;
+}
+
+.footer {
+  padding: 30px;
+}
+
+.footer-icons {
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin-right: 7px;
+  line-height: 38px;
+  color: black;
+  padding-top: 8px;
+  padding-left: 9px;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.footer-icons:hover {
+  color: white;
+  border: 2px solid black;
+  background-color: black;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.social {
+  padding-left: 14px;
+}
+
+.footer-email {
+  font-size: 23px;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-email:hover {
+  color: #7fff00;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 .arrow-wrapper {
