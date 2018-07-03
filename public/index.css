@@ -193,7 +193,7 @@ body {
   background-color: #000;
 }
 .container section:nth-child(1) .image {
-  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/baseball-in-grass-chris-brannen.jpg);
+  background-image: url(https://bsbproduction.s3.amazonaws.com/portals/7363/images/baseball%20field%202.jpg);
 }
 .container section:nth-child(2) .image {
   background-image: url();
