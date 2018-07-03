@@ -173,24 +173,6 @@ $('.register-form').on('submit', event => {
   });
 });
 
-//Fade on scroll
-
-$(document).ready(function() {
-  /* Every time the window is scrolled ... */
-  $(window).scroll(function() {
-    /* Check the location of each desired element */
-    $('.hideme').each(function(i) {
-      var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-      var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-      /* If the object is completely visible in the window, fade it it */
-      if (bottom_of_window > bottom_of_object) {
-        $(this).animate({ opacity: '1' }, 2000);
-      }
-    });
-  });
-});
-
 // General setting scroll reveal
 
 window.sr = ScrollReveal({ reset: true });
@@ -205,10 +187,9 @@ sr.reveal('.sub-head', { duration: 2000 });
 
 sr.reveal('.prizes', { duration: 2000 });
 
+sr.reveal('.register-form', { duration: 2000 });
+
 sr.reveal('.prize-content', {
   origin: 'right',
   duration: 2000
 });
-
-
-

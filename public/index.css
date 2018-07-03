@@ -498,10 +498,6 @@ button:hover {
   }
 }
 
-.hideme {
-  opacity: 0;
-}
-
 /*--Media Queries--*/
 
 @media screen and (max-width: 460px) {
