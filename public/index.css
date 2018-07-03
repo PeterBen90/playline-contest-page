@@ -69,7 +69,7 @@ nav ul .nav-hover:hover {
   padding: 12px 10px;
   cursor: pointer;
   display: none;
-  height: 50px;
+  height: 60px;
 }
 
 .handle.scrolled {
@@ -96,7 +96,7 @@ nav ul .nav-hover:hover {
   font-weight: bold;
   margin-left: 10px;
   position: relative;
-  bottom: 43px;
+  bottom: 38px;
 }
 
 /*Nav Media Query*/
@@ -193,7 +193,7 @@ body {
   background-color: #000;
 }
 .container section:nth-child(1) .image {
-  background-image: url(http://tunnelvisionsports.net/wp-content/uploads/2014/06/bigstock-Baseball-on-the-field-26160191.jpg);
+  background-image: url(https://www.houstonseagle.com/rf/image_lowres/Pub/p9/CmgSharedContent/2018/04/30/Images/baseball-field-1563858_1280-U75850050762XLk-680x383.jpg);
 }
 .container section:nth-child(2) .image {
   background-image: url();
