@@ -231,7 +231,7 @@ body {
   flex-wrap: nowrap;
   height: 100%;
   width: 100%;
-  max-width: 75%;
+  max-width: 80%;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -354,7 +354,7 @@ button {
   height: 50px;
   width: 180px;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: -25px;
 }
 
 button:hover {
@@ -540,7 +540,7 @@ button:hover {
   .form-title {
     font-size: 20px;
     line-height: 1.5em;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 
   .form-container {
@@ -554,6 +554,7 @@ button:hover {
   button {
     height: 40px;
     width: 120px;
+    margin-bottom: -20px;
   }
 
   .message {
