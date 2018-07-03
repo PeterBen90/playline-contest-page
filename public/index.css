@@ -94,7 +94,7 @@ nav ul .nav-hover:hover {
   color: white;
   font-size: 35px;
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 5px;
   position: relative;
   bottom: 38px;
 }
@@ -193,7 +193,7 @@ body {
   background-color: #000;
 }
 .container section:nth-child(1) .image {
-  background-image: url(https://www.houstonseagle.com/rf/image_lowres/Pub/p9/CmgSharedContent/2018/04/30/Images/baseball-field-1563858_1280-U75850050762XLk-680x383.jpg);
+  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/baseball-in-grass-chris-brannen.jpg);
 }
 .container section:nth-child(2) .image {
   background-image: url();
@@ -404,7 +404,7 @@ button:hover {
 }
 
 .footer {
-  padding: 30px;
+  padding: 25px;
 }
 
 .footer-icons {
