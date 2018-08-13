@@ -187,9 +187,8 @@ sr.reveal('.sub-head', { duration: 2000 });
 
 sr.reveal('.prizes', { duration: 2000 });
 
-sr.reveal('.register-form', { duration: 2000 });
-
 sr.reveal('.prize-content', {
   origin: 'right',
   duration: 2000
 });
+
