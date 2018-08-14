@@ -177,9 +177,7 @@ $('.register-form').on('submit', event => {
 
 window.sr = ScrollReveal({ reset: true });
 
-// Custom Settings
-
-sr.reveal('.main', { duration: 2000 });
+// // Custom Settings
 
 sr.reveal('.mockup', { duration: 2000 });
 
@@ -188,7 +186,6 @@ sr.reveal('.sub-head', { duration: 2000 });
 sr.reveal('.prizes', { duration: 2000 });
 
 sr.reveal('.prize-content', {
-  origin: 'right',
+  origin: 'bottom',
   duration: 2000
 });
-
