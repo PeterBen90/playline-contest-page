@@ -97,6 +97,7 @@ nav ul .nav-hover:hover {
 	margin-left: 5px;
 	position: relative;
 	bottom: 38px;
+	right: 5px;
 }
 
 /*Nav Media Query*/
@@ -576,6 +577,13 @@ button:hover {
 .small-logo {
 	height: 40px;
 	width: auto;
+}
+
+.small-logo2 {
+	height: 40px;
+	width: auto;
+	position: relative;
+	right: 10px;
 }
 
 .logos {
