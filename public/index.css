@@ -569,8 +569,14 @@ button:hover {
 		width: 200px;
 	}
 
-	nav ul li.item {
-		top: 0 !important;
+	.con {
+		margin-left: 0px !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.con {
+		margin-left: 0px !important;
 	}
 }
 
@@ -592,7 +598,10 @@ button:hover {
 
 nav ul li.item {
 	position: relative;
-	top: 12px;
 	padding: 18px 20px;
-	float: right;
+	bottom: 12px;
+}
+
+.con {
+	margin-left: 1020px;
 }
