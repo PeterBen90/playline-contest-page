@@ -572,6 +572,12 @@ button:hover {
 	.con {
 		margin-left: 0px !important;
 	}
+
+	.firstname,
+	.lastname,
+	.email {
+		margin-left: 0 !important;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -600,4 +606,16 @@ nav ul li.item {
 	position: relative;
 	padding: 18px 20px;
 	bottom: 12px;
+}
+
+.firstname {
+	margin-left: 11px;
+}
+
+.lastname {
+	margin-left: 18px;
+}
+
+.email {
+	margin-left: 50px;
 }
