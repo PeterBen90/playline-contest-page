@@ -576,11 +576,13 @@ button:hover {
 
 	label {
 		display: block !important;
-		margin-left: -100px !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
 	}
 
 	.email-label {
-		margin-left: -90px !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
 	}
 }
 
