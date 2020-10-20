@@ -340,7 +340,8 @@ input {
 	margin-bottom: 10px;
 	border-radius: 5px;
 	font-size: 18px;
-	padding: 5px;
+	padding: 7px;
+	width: auto;
 }
 
 button {
@@ -573,10 +574,13 @@ button:hover {
 		margin-left: 0px !important;
 	}
 
-	.firstname,
-	.lastname,
-	.email {
-		margin-left: 0 !important;
+	label {
+		display: block !important;
+		margin-left: -100px !important;
+	}
+
+	.email-label {
+		margin-left: -90px !important;
 	}
 }
 
@@ -608,14 +612,10 @@ nav ul li.item {
 	bottom: 12px;
 }
 
-.firstname {
-	margin-left: 11px;
+label {
+	margin-right: 20px;
 }
 
-.lastname {
-	margin-left: 18px;
-}
-
-.email {
-	margin-left: 50px;
+.email-label {
+	margin-right: 65px;
 }
