@@ -574,7 +574,7 @@ button:hover {
 		margin-left: 0px !important;
 	}
 
-	label {
+	/* label {
 		display: block !important;
 		margin-left: 0 !important;
 		margin-right: 0 !important;
@@ -583,6 +583,13 @@ button:hover {
 	.email-label {
 		margin-left: 0 !important;
 		margin-right: 0 !important;
+	} */
+
+	.email,
+	.email-label,
+	.lastname,
+	.firstname {
+		position: static !important;
 	}
 }
 
@@ -613,11 +620,27 @@ nav ul li.item {
 	padding: 18px 20px;
 	bottom: 12px;
 }
-
+/* 
 label {
 	margin-right: 20px;
 }
 
 .email-label {
 	margin-right: 65px;
+} */
+
+.email {
+	position: relative;
+	left: 40px;
+}
+
+.email-label {
+	position: relative;
+	left: 23px;
+}
+
+.lastname,
+.firstname {
+	position: relative;
+	left: 16px;
 }
