@@ -591,6 +591,10 @@ button:hover {
 	.firstname {
 		position: static !important;
 	}
+
+	.email-label {
+		left: 0 !important;
+	}
 }
 
 @media screen and (max-width: 768px) {
